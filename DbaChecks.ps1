@@ -6,15 +6,15 @@ Gather info of daily interest on SQL Servers and email and attachment it.
 22.10.2021 - Emanuel König
 #> 
   
-$WorkDir = "C:\Users\jgavin\repos\dba\dbachecks" 
+$WorkDir = "C:\temp" 
 $OutFile = "DbaChecks.txt" 
    
 # Edit names in arrays in alphabetical order for ordered output. Windows server names and SQL Server names are not sorted in script as edits are infrequent. 
 # Windows machine names 
-[array]$WinMachines = @("JGAVIN-L") 
+[array]$WinMachines = @("SRVNAME") 
   
 # SQL Server instance names 
-[array]$SqlServers = @("MYMACHINE\SQL2012"," MYMACHINE\SQL2014"," MYMACHINE\SQL2016"," MYMACHINE\SQL2017") 
+[array]$SqlServers = @("MYMACHINE\SQL2012"," MYMACHINE\SQL2014"," MYMACHINE\SQL2016"," MYMACHINE\SQL2017"," MYMACHINE\SQL2019") 
   
 # mail variables 
 $PSEmailServer = "smtp.mymailserver.com" 
