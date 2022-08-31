@@ -1,3 +1,9 @@
+/********USAGE
+use master
+
+SINGLE USER>>>EXEC sp_help_revlogin 'USERNAME'
+ALL USERS>>>EXEC sp_help_revlogin
+**********/
 USE [master]
 GO
 /****** Object:  StoredProcedure [dbo].[sp_help_revlogin]    Script Date: 31.08.2022 09:41:48 ******/
